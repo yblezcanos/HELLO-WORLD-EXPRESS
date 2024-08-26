@@ -1,0 +1,14 @@
+{
+  "name": "hello-world-express",
+  "version": "1.0.0",
+  "description": "Hello world example",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Yanet",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
