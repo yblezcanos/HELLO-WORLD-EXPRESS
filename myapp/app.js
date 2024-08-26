@@ -3,6 +3,9 @@ const app = express()
 const port = 3000
 const routePerson = require('./route.person');
 
+// Middleware para parsear JSON
+app.use(express.json());
+
 app.use('/person', routePerson);
 
 app.get('/', (req, res) => {
