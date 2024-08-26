@@ -4,7 +4,9 @@
   "description": "Hello world example",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node src/app.js",
+    "eje": "node src/app.js",
+    "test": "jest"
   },
   "author": "Yanet",
   "license": "ISC",
